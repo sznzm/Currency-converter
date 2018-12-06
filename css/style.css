@@ -1,0 +1,85 @@
+/*       General    */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+
+}
+
+body h1 {
+	text-align: center;
+	color: navy;
+}
+
+/*    Table   */
+.table {
+	border: 2px solid navy;
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+
+.table thead {
+	background-color: navy;
+	color: #fff;
+}
+
+.table tbody tr td {
+	border: 1px solid navy;
+	background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.table span {
+	margin: 10px;
+}
+
+.container {
+	max-width: 900px;
+
+	margin-top: 50px;
+}
+
+/*   Form   */
+
+.form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	color: navy;
+	padding: 30px 20px;
+}
+
+#amount {
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form select {
+	height: 30px;
+	width: 70px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.form button {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+#date {
+	height: 30px;
+	border-radius: 5px;
+}
+
+#newAmount {
+	margin-left: 10px;
+	font-weight: bold;
+}
