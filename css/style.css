@@ -83,3 +83,32 @@ body h1 {
 	margin-left: 10px;
 	font-weight: bold;
 }
+
+/*   Media Queries */
+
+@media only screen and (max-width: 1000px) {
+
+	.form {
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+	}
+
+	.form input {
+		width: 100%;
+	}
+
+	label {
+		margin: 10px 0;
+	}
+
+	label select {
+		margin-bottom: 10px;
+	}
+
+	.form button {
+		margin-top: 20px;
+	}
+
+}
+
